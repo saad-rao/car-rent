@@ -217,7 +217,7 @@ function Hero() {
               </div>
 
               <div className="my-8 flex justify-center">
-                <img
+                <Image
                   src="/images/car.png"
                   alt="Koenigsegg"
                   className="object-contain h-36"
@@ -302,7 +302,7 @@ function Hero() {
               </div>
 
               <div className="my-8 flex justify-center">
-                <img
+                <Image
                   src="/images/car (1).png"
                   alt="Nissan GT-R"
                   className="object-contain h-36"
@@ -392,7 +392,7 @@ function Hero() {
               </div>
 
               <div className="my-8 flex justify-center">
-                <img
+                <Image
                   src="/images/car (2).png"
                   alt="Rolls-Royce"
                   className="object-contain h-36"
@@ -477,7 +477,7 @@ function Hero() {
               </div>
 
               <div className="my-8 flex justify-center">
-                <img
+                <Image
                   src="/images/car (3).png"
                   alt="Nissan GT-R"
                   className="object-contain h-36"
@@ -581,7 +581,7 @@ function Hero() {
               </div>
 
               <div className="my-8 flex justify-center">
-                <img
+                <Image
                   src="/images/Car (4).png"
                   alt="All new rush"
                   className="object-contain h-36"
@@ -668,7 +668,7 @@ function Hero() {
               </div>
 
               <div className="my-8 flex justify-center">
-                <img
+                <Image
                   src="/images/car (5).png"
                   alt="cr-v"
                   className="object-contain h-36"
@@ -757,7 +757,7 @@ function Hero() {
               </div>
 
               <div className="my-8 flex justify-center">
-                <img
+                <Image
                   src="/images/car (6).png"
                   alt="Rolls-Royce"
                   className="object-contain h-36"
@@ -842,7 +842,7 @@ function Hero() {
               </div>
 
               <div className="my-8 flex justify-center">
-                <img
+                <Image
                   src="/images/car (7).png"
                   alt="Nissan GT-R"
                   className="object-contain h-36"
@@ -937,7 +937,7 @@ function Hero() {
             </div>
 
             <div className="my-8 flex justify-center">
-              <img
+              <Image
                 src="/images/Car (8).png"
                 alt="All new rush"
                 className="object-contain h-36"
@@ -1024,7 +1024,7 @@ function Hero() {
             </div>
 
             <div className="my-8 flex justify-center">
-              <img
+              <Image
                 src="/images/car (9).png"
                 alt="cr-v"
                 className="object-contain h-36"
@@ -1111,7 +1111,7 @@ function Hero() {
             </div>
 
             <div className="my-8 flex justify-center">
-              <img
+              <Image
                 src="/images/car (10).png"
                 alt="Rolls-Royce"
                 className="object-contain h-36"
@@ -1196,7 +1196,7 @@ function Hero() {
             </div>
 
             <div className="my-8 flex justify-center">
-              <img
+              <Image
                 src="/images/car (7).png"
                 alt="Nissan GT-R"
                 className="object-contain h-36"
