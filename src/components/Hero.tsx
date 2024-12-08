@@ -381,7 +381,7 @@ function Hero() {
               <div className="flex justify-between items-center">
                 <div>
                   <h2 className="text-xl font-bold">Rolls-Royce</h2>
-                  <p className="text-gray-500 text-sm">Sedan</p>
+                  <p className="text-gray-500 text-sm">Sport</p>
                 </div>
                 <Image
                   src={"/images/red-heart.png"}
@@ -670,7 +670,7 @@ function Hero() {
               <div className="my-8 flex justify-center">
                 <Image
                   src="/images/car (5).png"
-                  alt="cr-v"
+                  alt="CR-V"
                   className="object-contain h-36"
                 />
               </div>
@@ -759,7 +759,7 @@ function Hero() {
               <div className="my-8 flex justify-center">
                 <Image
                   src="/images/car (6).png"
-                  alt="Rolls-Royce"
+                  alt="AllNewTerios"
                   className="object-contain h-36"
                 />
               </div>
@@ -844,7 +844,7 @@ function Hero() {
               <div className="my-8 flex justify-center">
                 <Image
                   src="/images/car (7).png"
-                  alt="Nissan GT-R"
+                  alt="CR-V"
                   className="object-contain h-36"
                 />
               </div>
@@ -923,7 +923,7 @@ function Hero() {
           <div className="bg-white p-6 rounded-lg shadow-sm">
             <div className="flex justify-between items-center">
               <div>
-                <h2 className="text-xl font-bold">MGZXExclusive</h2>
+                <h2 className="text-xl font-bold">MGZX Exclusive</h2>
                 <p className="text-gray-500 text-sm">Hatchback</p>
               </div>
               <div className="text-gray-300 text-2xl">
@@ -939,7 +939,7 @@ function Hero() {
             <div className="my-8 flex justify-center">
               <Image
                 src="/images/Car (8).png"
-                alt="All new rush"
+                alt="MGZX Exclusive"
                 className="object-contain h-36"
               />
             </div>
@@ -1012,7 +1012,7 @@ function Hero() {
           <div className="bg-white p-6 rounded-lg shadow-sm">
             <div className="flex justify-between items-center">
               <div>
-                <h2 className="text-xl font-bold">NewMGZS</h2>
+                <h2 className="text-xl font-bold">New MGZS</h2>
                 <p className="text-gray-500 text-sm">SUV</p>
               </div>
               <Image
@@ -1026,7 +1026,7 @@ function Hero() {
             <div className="my-8 flex justify-center">
               <Image
                 src="/images/car (9).png"
-                alt="cr-v"
+                alt="NewMGZS"
                 className="object-contain h-36"
               />
             </div>
@@ -1113,7 +1113,7 @@ function Hero() {
             <div className="my-8 flex justify-center">
               <Image
                 src="/images/car (10).png"
-                alt="Rolls-Royce"
+                alt="MGZX Excite"
                 className="object-contain h-36"
               />
             </div>
@@ -1198,7 +1198,7 @@ function Hero() {
             <div className="my-8 flex justify-center">
               <Image
                 src="/images/car (7).png"
-                alt="Nissan GT-R"
+                alt="New MGZS"
                 className="object-contain h-36"
               />
             </div>
