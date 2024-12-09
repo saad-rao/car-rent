@@ -400,7 +400,7 @@ function Hero() {
 
               <div className="my-8 flex justify-center">
                 <Image
-                  src="/images/car (2).png"
+                  src="/images/Car (2).png"
                   alt="Rolls-Royce"
                   width={300}
                   height={150}
@@ -488,7 +488,7 @@ function Hero() {
 
               <div className="my-8 flex justify-center">
                 <Image
-                  src="/images/car (3).png"
+                  src="/images/Car (3).png"
                   alt="Nissan GT-R"
                   width={300}
                   height={150}
@@ -685,7 +685,7 @@ function Hero() {
 
               <div className="my-8 flex justify-center">
                 <Image
-                  src="/images/car (5).png"
+                  src="/images/Car (5).png"
                   alt="CR-V"
                   width={300}
                   height={150}
@@ -777,7 +777,7 @@ function Hero() {
 
               <div className="my-8 flex justify-center">
                 <Image
-                  src="/images/car (6).png"
+                  src="/images/Car (6).png"
                   alt="AllNewTerios"
                   width={300}
                   height={150}
@@ -865,7 +865,7 @@ function Hero() {
 
               <div className="my-8 flex justify-center">
                 <Image
-                  src="/images/car (7).png"
+                  src="/images/Car (7).png"
                   alt="CR-V"
                   width={300}
                   height={150}
@@ -1053,7 +1053,7 @@ function Hero() {
 
             <div className="my-8 flex justify-center">
               <Image
-                src="/images/car (9).png"
+                src="/images/Car (9).png"
                 alt="NewMGZS"
                 width={300}
                 height={150}
@@ -1142,7 +1142,7 @@ function Hero() {
 
             <div className="my-8 flex justify-center">
               <Image
-                src="/images/car (10).png"
+                src="/images/Car (10).png"
                 alt="MGZX Excite"
                 width={300}
                 height={150}
