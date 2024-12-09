@@ -4,8 +4,9 @@ import { ChevronDown } from "lucide-react";
 
 function Hero() {
   return (
-    <div>
-      <div className="container mx-auto px-4 py-8">
+    <>
+    
+          <div className="container mx-auto px-4 py-8">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
           {/* First Card */}
           <div className="relative bg-[#54A6FF] rounded-[10px] p-8 overflow-hidden h-[400px]">
@@ -192,7 +193,7 @@ function Hero() {
           </div>
         </div>
 
-        <div className="max-w-7xlxl mx-auto px-4 py-8">
+        <div className="max-w-7xl mx-auto px-4 py-8 ">
           {/* Header Section */}
           <div className="flex justify-between items-center mb-8">
             <p className="text-lg font-semibold text-gray-800 ">Popular Car</p>
@@ -200,7 +201,7 @@ function Hero() {
           </div>
 
           {/* Cards Container */}
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 ">
             {/* Card 1 - Koenigsegg */}
             <div className="bg-white p-6 rounded-lg shadow-sm">
               <div className="flex justify-between items-center">
@@ -220,6 +221,9 @@ function Hero() {
                 <Image
                   src="/images/car.png"
                   alt="Koenigsegg"
+                  width={300}
+                  height={150}
+                  // fill
                   className="object-contain h-36"
                 />
               </div>
@@ -305,6 +309,9 @@ function Hero() {
                 <Image
                   src="/images/car (1).png"
                   alt="Nissan GT-R"
+                  width={300}
+                  height={150}
+                  // fill
                   className="object-contain h-36"
                 />
               </div>
@@ -395,6 +402,9 @@ function Hero() {
                 <Image
                   src="/images/car (2).png"
                   alt="Rolls-Royce"
+                  width={300}
+                  height={150}
+                  // fill
                   className="object-contain h-36"
                 />
               </div>
@@ -480,6 +490,9 @@ function Hero() {
                 <Image
                   src="/images/car (3).png"
                   alt="Nissan GT-R"
+                  width={300}
+                  height={150}
+                  // fill
                   className="object-contain h-36"
                 />
               </div>
@@ -584,6 +597,9 @@ function Hero() {
                 <Image
                   src="/images/Car (4).png"
                   alt="All new rush"
+                  width={300}
+                  height={150}
+                  // fill
                   className="object-contain h-36"
                 />
               </div>
@@ -671,6 +687,9 @@ function Hero() {
                 <Image
                   src="/images/car (5).png"
                   alt="CR-V"
+                  width={300}
+                  height={150}
+                  // fill
                   className="object-contain h-36"
                 />
               </div>
@@ -760,6 +779,9 @@ function Hero() {
                 <Image
                   src="/images/car (6).png"
                   alt="AllNewTerios"
+                  width={300}
+                  height={150}
+                  // fill
                   className="object-contain h-36"
                 />
               </div>
@@ -845,6 +867,9 @@ function Hero() {
                 <Image
                   src="/images/car (7).png"
                   alt="CR-V"
+                  width={300}
+                  height={150}
+                  // fill
                   className="object-contain h-36"
                 />
               </div>
@@ -940,6 +965,9 @@ function Hero() {
               <Image
                 src="/images/Car (8).png"
                 alt="MGZX Exclusive"
+                width={300}
+                height={150}
+              
                 className="object-contain h-36"
               />
             </div>
@@ -1027,6 +1055,8 @@ function Hero() {
               <Image
                 src="/images/car (9).png"
                 alt="NewMGZS"
+                width={300}
+                height={150}
                 className="object-contain h-36"
               />
             </div>
@@ -1114,6 +1144,8 @@ function Hero() {
               <Image
                 src="/images/car (10).png"
                 alt="MGZX Excite"
+                width={300}
+                height={150}
                 className="object-contain h-36"
               />
             </div>
@@ -1197,8 +1229,10 @@ function Hero() {
 
             <div className="my-8 flex justify-center">
               <Image
-                src="/images/car (7).png"
+                src="/images/Car (11).png"
                 alt="New MGZS"
+                width={300}
+                height={150}
                 className="object-contain h-36"
               />
             </div>
@@ -1274,7 +1308,7 @@ function Hero() {
           Show more car
         </button>
       </div>
-    </div>
+    </>
   );
 }
 
