@@ -193,7 +193,7 @@ function Hero() {
           </div>
         </div>
 
-        <div className="max-w-7xl mx-auto px-4 py-8 ">
+        <div className="max-w-7xlxl mx-auto px-4 py-8 ">
           {/* Header Section */}
           <div className="flex justify-between items-center mb-8">
             <p className="text-lg font-semibold text-gray-800 ">Popular Car</p>

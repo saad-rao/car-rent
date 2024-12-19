@@ -1,7 +1,8 @@
 import Image from "next/image";
 import { Search, SlidersHorizontal, Heart, Bell } from "lucide-react";
+import Link from "next/link";
 
-function Navbar() {
+function Navbar(){
   return (
     <nav className="w-full px-4 py-4 border-b">
       {/* Main container with responsive flex direction */}
@@ -19,7 +20,7 @@ function Navbar() {
           </div>
 
           {/* Search bar container - full width on mobile */}
-          <div className="w-full lg:max-w-2xl">
+          <div className="w-full lg:max-w-xl">
             <div className="relative">
               {/* Search icon inside input */}
               <div className="absolute inset-y-0 left-3 flex items-center pointer-events-none">
@@ -32,6 +33,8 @@ function Navbar() {
                 placeholder="Search something here"
                 className="w-full py-4 pl-10 pr-10 bg-[#f5f5f5] rounded-[70px] border-[2px] text-sm focus:outline-none"
               />
+           
+              
 
               {/* Filter icon - inside input on desktop, outside on mobile */}
               <div className="lg:absolute lg:inset-y-0 lg:right-3 lg:flex lg:items-center hidden">
@@ -47,6 +50,27 @@ function Navbar() {
 
           {/* Right section with icons */}
           <div className="flex items-center gap-4 ml-auto">
+            <ul className="flex space-x-6 text-[#596780]">
+
+            {/* <li>
+       <Link href="">
+      Home
+       </Link>
+              </li> */}
+              <li>
+       <Link href="/category">
+      Category
+       </Link>
+              </li>
+
+              <li>
+       <Link href="/detail">
+      Detail
+       </Link>
+              </li>
+
+            </ul>
+         
             <button className="p-1">
               <Heart className="h-5 w-5 text-[#596780]" />
             </button>
@@ -54,7 +78,9 @@ function Navbar() {
               <Bell className="h-5 w-5 text-[#596780]" />
               <span className="absolute top-0 right-0 h-2 w-2 bg-red-500 rounded-full"></span>
             </button>
-            <button className="p-1">
+
+           
+            {/* <button className="p-1">
               <Image
                 src="/images/Profil & Notification.png"
                 alt="profile"
@@ -62,7 +88,7 @@ function Navbar() {
                 height={32}
                 className="rounded-full"
               />
-            </button>
+            </button> */}
           </div>
         </div>
       </div>
