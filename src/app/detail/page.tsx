@@ -6,7 +6,9 @@ import Footer from '@/components/Footer'
 
 const page = () => {
   return (
+
     <div>
+      <Navbar/>
     <div className="w-full min-h-screen bg-gray-50">
     <div className="container mx-auto px-4 py-8">
       <div className="flex gap-8">
