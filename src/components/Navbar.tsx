@@ -69,6 +69,13 @@ function Navbar(){
        </Link>
               </li>
 
+
+              <li>
+       <Link href="/payment">
+      Payment
+       </Link>
+              </li>
+
             </ul>
          
             <button className="p-1">
