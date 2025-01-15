@@ -216,7 +216,6 @@ const page = () => {
             </div>
             <div className="flex gap-2">
               <Image src="/images/Visa.png" alt="Visa" width={80} height={25} />
-              {/* <Image src="/images/Mastercard.png" alt="Mastercard" width={40} height={25} /> */}
             </div>
           </div>
 
@@ -263,7 +262,7 @@ const page = () => {
               <input type="radio" name="payment" className="w-4 h-4 text-blue-500" />
               <span className="font-medium">PayPal</span>
             </div>
-            <Image src="/images/Paypal.png" alt="PayPal" width={80} height={20} />
+            <Image src="/images/PayPal.png" alt="PayPal" width={80} height={20} />
           </div>
           
           <div className="flex items-center justify-between p-4 bg-gray-50 rounded-lg">
