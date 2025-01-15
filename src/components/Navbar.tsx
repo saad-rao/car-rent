@@ -10,13 +10,16 @@ function Navbar(){
         <div className="flex flex-col lg:flex-row items-center gap-4 lg:gap-8">
           {/* Logo */}
           <div className="flex-shrink-0">
-            <Image
+            <link href="/">
+             <Image
               src="/images/Logo.png"
               alt="logo"
               width={120}
               height={40}
               className="h-8 w-auto"
             />
+            </link>
+
           </div>
 
           {/* Search bar container - full width on mobile */}
