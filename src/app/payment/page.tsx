@@ -201,10 +201,10 @@ const page = () => {
     <div className="bg-white rounded-lg p-6 mt-8 max-w-[800px] ">
         <div className="flex justify-between items-center mb-8">
           <div>
-            <h2 className="text-2xl font-bold text-gray-900">Payment Method</h2>
-            <p className="text-gray-500 mt-1">Please enter your payment method</p>
+            <h2 className="text-[20px] font-bold text-[#1A202C] ">Payment Method</h2>
+            <p className="text-[#90A3BF] text-[14px] mt-1">Please enter your payment method</p>
           </div>
-          <span className="text-gray-400">Step 3 of 4</span>
+          <span className="text-[#90A3BF] text-[14px] ">Step 3 of 4</span>
         </div>
 
         {/* Credit Card Section */}
@@ -212,7 +212,7 @@ const page = () => {
           <div className="flex items-center justify-between">
             <div className="flex items-center gap-2">
               <div className="w-2 h-2 rounded-full bg-blue-500"></div>
-              <span className="font-semibold">Credit Card</span>
+              <span className="font-semibold text-[16px] text-[#1A202C] ">Credit Card</span>
             </div>
             <div className="flex gap-2">
               <Image src="/images/Visa.png" alt="Visa" width={80} height={25} />
@@ -221,35 +221,35 @@ const page = () => {
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             <div className="space-y-2">
-              <label className="block text-gray-700">Card Number</label>
+              <label className="block text-[#1A202C] text-[16px] font-semibold ">Card Number</label>
               <input
                 type="text"
                 placeholder="Card number"
-                className="w-full p-3 bg-gray-50 rounded-lg border border-gray-200"
+                className="w-full p-3 bg-gray-50 text-[#90A3BF] text-[14px] rounded-lg border border-gray-200"
               />
             </div>
             <div className="space-y-2">
-              <label className="block text-gray-700">Expiration Date</label>
+              <label className="block text-[#1A202C] text-[16px] font-semibold">Expiration Date</label>
               <input
                 type="text"
                 placeholder="DD/MM/YY"
-                className="w-full p-3 bg-gray-50 rounded-lg border border-gray-200"
+                className="w-full p-3 bg-gray-50 text-[#90A3BF] text-[14px] rounded-lg border border-gray-200"
               />
             </div>
             <div className="space-y-2">
-              <label className="block text-gray-700">Card Holder</label>
+              <label className="block text-[#1A202C] text-[16px] font-semibold">Card Holder</label>
               <input
                 type="text"
                 placeholder="Card holder"
-                className="w-full p-3 bg-gray-50 rounded-lg border border-gray-200"
+                className="w-full p-3 bg-gray-50 text-[#90A3BF] text-[14px] rounded-lg border border-gray-200"
               />
             </div>
             <div className="space-y-2">
-              <label className="block text-gray-700">CVC</label>
+              <label className="block text-[#1A202C] text-[16px] font-semibold">CVC</label>
               <input
                 type="text"
                 placeholder="CVC"
-                className="w-full p-3 bg-gray-50 rounded-lg border border-gray-200"
+                className="w-full p-3 bg-gray-50 rounded-lg text-[#90A3BF] text-[14px] border border-gray-200"
               />
             </div>
           </div>
@@ -260,7 +260,7 @@ const page = () => {
           <div className="flex items-center justify-between p-4 bg-gray-50 rounded-lg">
             <div className="flex items-center gap-3">
               <input type="radio" name="payment" className="w-4 h-4 text-blue-500" />
-              <span className="font-medium">PayPal</span>
+              <span className="font-medium text-[16px] text-[#1A202C] ">PayPal</span>
             </div>
             <Image src="/images/PayPal.png" alt="PayPal" width={80} height={20} />
           </div>
@@ -279,23 +279,23 @@ const page = () => {
       <div className="bg-white rounded-lg p-6 mt-8 max-w-[800px]">
         <div className="flex justify-between items-center mb-8">
           <div>
-            <h2 className="text-2xl font-bold text-gray-900">Confirmation</h2>
-            <p className="text-gray-500 mt-1">We are getting to the end. Just few clicks and your rental is ready!</p>
+            <h2 className="text-[#1A202C] font-bold text-[20px] ">Confirmation</h2>
+            <p className="text-[#90A3BF] text-[14px] mt-1">We are getting to the end. Just few clicks and your rental is ready!</p>
           </div>
-          <span className="text-gray-400">Step 4 of 4</span>
+          <span className="text-[#90A3BF] text-[14px] ">Step 4 of 4</span>
         </div>
 
         <div className="space-y-4">
           <label className="flex items-start gap-3 cursor-pointer">
             <input type="checkbox" className="mt-1 w-4 h-4 text-blue-500" />
-            <span className="text-gray-600">
+            <span className="text-[#1F2544] text-[16px] font-semibold">
               I agree with sending an Marketing and newsletter emails. No spam, promissed!
             </span>
           </label>
 
           <label className="flex items-start gap-3 cursor-pointer">
             <input type="checkbox" className="mt-1 w-4 h-4 text-blue-500" />
-            <span className="text-gray-600">
+            <span className="text-[#1F2544] text-[16px] font-semibold">
               I agree with our terms and conditions and privacy policy.
             </span>
           </label>
@@ -313,8 +313,8 @@ const page = () => {
                    
 
           <div>
-            <p className="font-medium">All your data are safe</p>
-            <p className="text-gray-500 text-sm">
+            <p className="font-medium text-[#1A202C] text-[16px] ">All your data are safe</p>
+            <p className="text-[14px] text-[#90A3BF] ">
               We are using the most advanced security to provide you the best experience ever.
             </p>
           </div>
