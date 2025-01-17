@@ -81,6 +81,12 @@ function Navbar(){
        </Link>
               </li>
 
+
+              <li>
+       <Link href="/dashboard">
+      Dashboard
+       </Link>
+              </li>
             </ul>
          
             <button className="p-1">
