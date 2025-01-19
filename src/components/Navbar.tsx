@@ -54,14 +54,9 @@ function Navbar(){
           </div>
 
           {/* Right section with icons */}
-          <div className="flex items-center gap-4 ml-auto">
+          <div className="flex items-center gap-4 ml-auto sm:text-center">
             <ul className="flex space-x-6 text-[#596780]">
 
-            {/* <li>
-       <Link href="">
-      Home
-       </Link>
-              </li> */}
               <li>
        <Link href="/category">
       Category
@@ -89,11 +84,11 @@ function Navbar(){
               </li>
             </ul>
          
-            <button className="p-1">
-              <Heart className="h-5 w-5 text-[#596780]" />
+            <button className="p-1 hidden md:block">
+              <Heart className="h-5 w-5 text-[#596780] " />
             </button>
-            <button className="p-1 relative">
-              <Bell className="h-5 w-5 text-[#596780]" />
+            <button className="hidden md:block p-1 relative">
+              <Bell className="h-5 w-5 text-[#596780]  " />
               <span className="absolute top-0 right-0 h-2 w-2 bg-red-500 rounded-full"></span>
             </button>
 

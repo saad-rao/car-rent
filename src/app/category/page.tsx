@@ -92,11 +92,14 @@ const page = () => {
         <button className="bg-[#3563E9] text-white text-[16px] px-4 py-2 mb-10 mt-10 rounded-[4px] hover:bg-blue-600 transition-colors">
           Show more car
         </button>
+        
       </div>
 
 
-  
-    <Footer/>
+  <div className="w-full">
+    <Footer />
+  </div>
+    
     </>
   );
 };
