@@ -57,27 +57,35 @@ function Navbar(){
           <div className="flex items-center gap-4 ml-auto sm:text-center">
             <ul className="flex space-x-6 text-[#596780]">
 
-              <li>
+
+            <li className="hover:text-[#3563E9] transform transition duration-500 hover:scale-11 ">
+       <Link href="/">
+      Home
+       </Link>
+              </li>
+
+
+              <li  className="hover:text-[#3563E9] transform transition duration-500 hover:scale-11 " >
        <Link href="/category">
       Category
        </Link>
               </li>
 
-              <li>
+              <li  className="hover:text-[#3563E9] transform transition duration-500 hover:scale-11 ">
        <Link href="/detail">
       Detail
        </Link>
               </li>
 
 
-              <li>
+              <li  className="hover:text-[#3563E9] transform transition duration-500 hover:scale-11 ">
        <Link href="/payment">
       Payment
        </Link>
               </li>
 
 
-              <li>
+              <li  className="hover:text-[#3563E9] transform transition duration-500 hover:scale-11 ">
        <Link href="/dashboard">
       Dashboard
        </Link>
