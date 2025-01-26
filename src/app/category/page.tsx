@@ -4,6 +4,9 @@ import PickDrop from "@/components/PickDrop";
 import Footer from "@/components/Footer";
 import Cards from "@/components/Cards";
 
+
+
+
 const page = () => {
   return (
     <>
