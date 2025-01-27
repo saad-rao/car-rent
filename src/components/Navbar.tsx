@@ -29,7 +29,9 @@ function Navbar(){
             <div className="relative">
               {/* Search icon inside input */}
               <div className="absolute inset-y-0 left-3 flex items-center pointer-events-none">
-                <Search className="h-4 w-4 text-[#596780]" />
+                <Search className="h-4 w-4 text-[#596780]"   />
+      
+
               </div>
 
               {/* Search input */}
@@ -54,7 +56,7 @@ function Navbar(){
           </div>
 
           {/* Right section with icons */}
-          <div className="flex items-center gap-4 ml-auto sm:text-center">
+          <div className="flex items-center gap-4 ml-auto sm:text-center sm:gap-2">
             <ul className="flex space-x-6 text-[#596780]">
 
 
