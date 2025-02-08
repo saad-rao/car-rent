@@ -11,7 +11,7 @@ const PickupDropoff = () => {
   const [dropoffDate, setDropoffDate] = useState<string>('');
   const [pickupTime, setPickupTime] = useState<string>('');
   const [dropoffTime, setDropoffTime] = useState<string>('');
-  const [loading, setLoading] = useState<boolean>(true);
+  const [, setLoading] = useState<boolean>(true);
 
   // Dropdown states
   const [showPickupLocations, setShowPickupLocations] = useState<boolean>(false);

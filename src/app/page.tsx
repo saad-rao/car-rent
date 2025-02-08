@@ -1,7 +1,7 @@
 import Navbar from "@/components/Navbar";
 import Hero from "@/components/Hero";
 import Footer from "@/components/Footer";
-import PickDrop from "@/components/PickDrop";
+
 
 export default function Home() {
   return (
