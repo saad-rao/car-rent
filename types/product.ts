@@ -1,4 +1,5 @@
 export interface Car {
+    id: any;
     _id: string;
     name:string;
     _type:"car";
@@ -19,3 +20,5 @@ export interface Car {
     originalPrice: number;
     tags?: string[];
 }
+
+
