@@ -7,6 +7,7 @@ import { client } from "@/sanity/lib/client";
 import { urlFor } from "@/sanity/lib/image";
 import { Fuel, Gauge, Users } from "lucide-react";
 import PickDrop from "./PickDrop";
+import Link from "next/link";
 
 export default function DynamicCarCards() {
   const [cars, setCars] = useState<Car[]>([]);
@@ -39,9 +40,12 @@ export default function DynamicCarCards() {
                 Ease of doing a car rental safely and reliably. Of course at a
                 low price.
               </p>
-              <button className="bg-[#3563E9] text-white text-[16px] px-5 py-2.5 rounded-[4px] hover:bg-blue-700 transition-colors">
+              <Link href="/detail">
+                            <button className="bg-[#3563E9] text-white text-[16px] px-5 py-2.5 rounded-[4px] hover:bg-blue-700 transition-colors">
                 Rental Car
               </button>
+              </Link>
+
             </div>
             <div className="absolute bottom-0 right-0 w-[80%] h-auto">
               {cars.length > 0 && cars[1].image && (
@@ -66,9 +70,11 @@ export default function DynamicCarCards() {
                 Providing cheap car rental services and safe and comfortable
                 facilities.
               </p>
+              <Link href="/detail">
               <button className="bg-[#54A6FF] text-white text-[16px] px-5 py-2.5 rounded-[4px] hover:bg-blue-400 transition-colors">
                 Rental Car
               </button>
+              </Link>
             </div>
             <div className="absolute bottom-0 right-0 w-[80%] h-auto">
               {cars.length > 0 && cars[0].image && (
@@ -85,10 +91,11 @@ export default function DynamicCarCards() {
         
         </div>
         <PickDrop/>
-        <div className="max-w-7xlxl mx-auto px-4 py-8 ">
-    
+        </div>
 
-                <div className="flex justify-between items-center mb-8">
+        {/* Car Cards */}
+        <div className="max-w-7xl mx-auto px-4 py-8 ">
+      <div className="flex justify-between items-center mb-8">
          <p className="text-lg font-semibold text-gray-800 ">Popular Car</p>
              <p className="text-blue-600 cursor-pointer">View All</p>
            </div>
@@ -116,9 +123,11 @@ export default function DynamicCarCards() {
               <div className="mt-4 flex justify-between items-center">
                
                 <p className="text-gray-800 font-bold mt-2">{car.pricePerDay}</p>
+                <Link href="/detail">
                         <button className="bg-[#3563E9] text-white px-4 py-2 rounded hover:bg-blue-600 transition-colors">
                 Rent Now
              </button>
+             </Link>
 
 
               </div>
@@ -134,8 +143,9 @@ export default function DynamicCarCards() {
             </div>
           ))}
         </div>
+   
       </div>
-      </div>
+     
     </>
   );
 }
